@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\yop\\awsnetkit\\slnTestAWS\\AWSServerless1\\AWSServerless1.csproj": {}
+  },
+  "projects": {
+    "C:\\yop\\awsnetkit\\slnTestAWS\\AWSServerless1\\AWSServerless1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\yop\\awsnetkit\\slnTestAWS\\AWSServerless1\\AWSServerless1.csproj",
+        "projectName": "AWSServerless1",
+        "projectPath": "C:\\yop\\awsnetkit\\slnTestAWS\\AWSServerless1\\AWSServerless1.csproj",
+        "packagesPath": "C:\\Users\\jose.nabor\\.nuget\\packages\\",
+        "outputPath": "C:\\yop\\awsnetkit\\slnTestAWS\\AWSServerless1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jose.nabor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cicdevelopment.pkgs.visualstudio.com/_packaging/Unity-Nuget/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/cicdevelopment/_packaging/Unity-NuGet-Feature/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.100.1, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.102.15, )"
+            },
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
