@@ -15,3 +15,5 @@ C:\yop\awsnetkit\slnTestAWS\AWSServerless1\obj\Debug\netcoreapp2.1\AWSServerless
 C:\yop\awsnetkit\slnTestAWS\AWSServerless1\obj\Debug\netcoreapp2.1\AWSServerless1.RazorTargetAssemblyInfo.cache
 C:\yop\awsnetkit\slnTestAWS\AWSServerless1\obj\Debug\netcoreapp2.1\AWSServerless1.dll
 C:\yop\awsnetkit\slnTestAWS\AWSServerless1\obj\Debug\netcoreapp2.1\AWSServerless1.pdb
+C:\yop\awsnetkit\slnTestAWS\AWSServerless1\bin\Debug\netcoreapp2.1\template-params.json
+C:\yop\awsnetkit\slnTestAWS\AWSServerless1\obj\Debug\netcoreapp2.1\AWSServerless1.csprojAssemblyReference.cache
