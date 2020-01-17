@@ -6,9 +6,6 @@ phases:
   build:
     commands:
       - dotnet publish -c release -o ./build_output  slnTestAWS/AWSServerless1/AWSServerless1.csproj
-  post_build:
-    commands:
-      - aws s3 sync slnTestAWS/AWSServerless1/build_output/ s3://mbo-backend-s3
 artifacts:
   files:
     - slnTestAWS/AWSServerless1/build_output/**/*
