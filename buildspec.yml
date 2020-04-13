@@ -8,5 +8,5 @@ phases:
       - dotnet publish -c release -o ./build_output  slnTestAWS/AWSServerless1/AWSServerless1.csproj
 artifacts:
   files:
-    - slnTestAWS/AWSServerless1/build_output/**/*
+    - build_output/**/*
     - scripts/**/*
